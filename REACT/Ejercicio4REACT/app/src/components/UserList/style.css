@@ -1,0 +1,19 @@
+ul {
+  display: flex;
+  gap: 5%;
+}
+
+li {
+  width: 20%;
+  border: 1px solid black;
+  list-style: none;
+  text-align: center;
+}
+
+li img {
+  width: 100%;
+}
+
+p.menorEdad img {
+  width: 50px;
+}

@@ -1,0 +1,90 @@
+@import url(/base.css);
+
+/* -------------GENERAL-------------- */
+
+body {
+    display: grid;
+    grid-template-columns: 10rem 1fr;
+    grid-template-rows: 5rem 2fr 2rem;
+    grid-template-areas: 
+        "header  header"
+        "nav  main"
+        "footer footer";
+}
+
+/* -------------HEADER-------------- */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem; 
+    grid-area: header;
+}
+
+nav[aria-label="usuario"] menu {
+    display: flex;
+    gap: 1rem;
+    grid-area: header;
+}
+
+/* -------------MAIN-------------- */
+
+nav[aria-label="categorias"] menu {
+    width: 10rem;
+    grid-area: nav;
+}
+
+nav[aria-label="categorias"] {
+    width: 10rem;
+    grid-area: nav;
+}
+
+main {
+    gap: 1rem;
+    grid-area: main;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+article .description {
+    height: 25%;
+}
+
+/* -------------FOOTER-------------- */
+
+footer {
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    grid-area: footer;
+}
+
+/* -------------MEDIA QUERIES-------------- */
+
+@media (max-width: 500px) {
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 10rem;
+    }
+
+    nav[aria-label="categorias"] {
+        width: 100vw;
+    }
+
+    nav[aria-label="categorias"] menu {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+}

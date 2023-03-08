@@ -1,0 +1,53 @@
+/* ------------PRIMERA LISTA------------ */
+
+li:nth-child(6) {
+  background-color: rgb(30, 118, 219);
+}
+
+.lista li:nth-child(odd) {
+  text-decoration: underline rgb(9, 241, 86);
+}
+
+.lista li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.lista li:first-of-type::after {
+    content: '💙';
+}
+
+.lista li:nth-of-type(2)::after {
+    content: '🚗';
+}
+
+.lista li:nth-of-type(3)::after {
+    content: '🧷';
+}
+
+.lista li:nth-of-type(4)::after {
+    content: '🐬';
+}
+
+.lista li:nth-of-type(5):after {
+    content: '🛀';
+}
+
+.lista li:last-of-type:after {
+    content: '⛔';
+}
+
+.lista [lang] {
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+/* ------------SEGUNDA LISTA------------ */
+
+#provincias {
+    list-style-type:upper-roman;
+}
+
+#provincias li:nth-child(2) {
+    list-style-type:none;
+}

@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px; 
+}
+
+/* ---------ACADEMIA---------- */
+
+h1 {
+    background-color: rgb(105, 151, 211);
+    padding: 1.5%;
+    height: 10vh;
+    text-align: center;
+    color: aliceblue;
+    font-size: 40px;
+}
+
+/* ---------MATERIALES---------- */
+
+h2 {
+    color: rgb(105, 151, 211);
+    padding: 0.3%;
+    margin: 0;
+    font-size: 30px;
+}
+
+section:first-child {
+    padding: 0%;
+    margin: 1%;
+}
+
+.importante {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+ul {
+    list-style: circle;
+    line-height: 30px;
+    margin-left: 3%;
+}
+
+/* ---------HORARIO---------- */
+
+table {
+    margin-left: 3%;
+    text-align: center;
+    color: white;
+}
+
+th {
+    width: 8vw;
+    height: 5vh;
+}
+
+section:nth-child(2) h2 {
+    padding: 0.3%;
+    margin-left: 1%;
+}
+
+thead tr:first-child {
+    background-color: rgb(105, 151, 211);
+}
+
+tbody tr:nth-child(odd) th {
+    background-color: rgba(105, 151, 211, 0.486);
+}
+
+tbody tr:nth-child(even) th {
+    background-color: rgba(39, 99, 177, 0.534);
+}
+
+tbody tr:first-child td {
+    background-color: rgba(125, 151, 184, 0.226);
+}
+
+tr:nth-child(2) td {
+    background-color: rgba(39, 99, 177, 0.342);
+}
+
+tr:nth-child(3) td {
+    background-color: rgba(125, 151, 184, 0.226);
+}
+
+tr:last-of-type td {
+    background-color: rgba(39, 99, 177, 0.342);
+}
+
+tbody tr {
+    color: black;
+}
+
+tr th:first-child {
+    width: 5vw;
+}
+
+#descanso {
+    font-weight: bold;
+    text-transform: uppercase;
+}

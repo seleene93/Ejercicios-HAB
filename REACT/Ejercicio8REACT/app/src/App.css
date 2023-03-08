@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  background-color: rgba(155, 146, 148, 0.836);
+  border: 1px solid black;
+  width: 15%;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+button {
+  width: 35%;
+  padding: 0.5rem;
+  border: none;
+}
+
+button:hover {
+  background-color: rgba(155, 146, 148, 0.575);
+}

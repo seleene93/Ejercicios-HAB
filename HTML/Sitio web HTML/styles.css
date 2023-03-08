@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&family=Noto+Serif&family=Passions+Conflict&family=Titillium+Web:wght@300&display=swap");
+
+/* ====================== GENERAL ====================== */
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+header {
+  margin-top: 1%;
+  font-size: 23px;
+  text-align: center;
+  text-decoration: none;
+}
+
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+footer {
+  color: rgba(190, 25, 190, 0.747);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  text-shadow: rgba(0, 0, 0, 0.404) 0em 0em 0.1em;
+}
+
+.footer {
+  margin-left: 0.5%;
+}
+
+.link-header {
+  padding: 1%;
+}
+
+a {
+  color: rgba(190, 25, 190, 0.747);
+  text-decoration: none;
+  text-shadow: rgba(0, 0, 0, 0.404) 0em 0em 0.1em;
+}
+
+.tituloMain {
+  font-family: "Passions Conflict", cursive;
+  font-size: 90px;
+  text-shadow: rgba(50, 5, 56, 0.425) 0em 0em 0.1em;
+  color: rgb(35, 7, 80);
+  text-align: center;
+  margin-top: 1%;
+}
+
+/* ====================== INDEX ====================== */
+
+#foto-cv {
+  box-shadow: 0px 0px 9.5px 0px rgba(41, 4, 41, 0.973);
+  border-radius: 20em;
+  width: 350px;
+  height: 350px;
+}
+
+main.index {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.left {
+  width: 22%;
+}
+
+.right {
+  text-align: center;
+  width: 22%;
+}
+
+section.right h2 {
+  color: rgb(57, 12, 129);
+  text-shadow: rgba(0, 0, 0, 0.404) 0em 0em 0.2em;
+}
+
+section.right h1 {
+  font-family: "Passions Conflict", cursive;
+  font-size: 90px;
+  font-weight: 600;
+  margin-bottom: -1%;
+  text-shadow: rgba(50, 5, 56, 0.425) 0em 0em 0.1em;
+  color: rgb(35, 7, 80);
+}
+
+section.right p {
+  color: rgb(69, 14, 158);
+  text-shadow: rgba(0, 0, 0, 0.63) 0em 0em 0.1em;
+}
+
+/* ====================== CONTACTO ====================== */
+
+p.contacto1 {
+  margin-left: 35%;
+  margin-top: -2%;
+}
+
+p.contacto2 {
+  margin-top: -0.7%;
+  margin-left: 35%;
+}
+
+ul {
+  list-style: none;
+  color: rgb(69, 14, 158);
+  text-shadow: rgba(0, 0, 0, 0.63) 0em 0em 0.1em;
+  font-style: oblique;
+  text-align: left;
+}
+
+/* ====================== PROYECTOS ====================== */
+
+.sectionProyectos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  width: 15vw;;
+  height: 27vh;
+  border-radius: 15px;
+  box-shadow: 0px 0px 9.8px 1px;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1%;
+  margin-bottom: 2%;
+}
+
+.imgProyectos {
+  width: 100%;
+  height: 50%;
+}
+
+.sectionArticles{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 1rem;
+}
+
+.sectionArticles p {
+  margin-left: 4%;
+  margin-bottom: 6%;
+  color: rgb(90, 89, 89);
+  height: 20%;
+  font-size: 0.9rem;
+}
+
+.tituloSection {
+  display: flex;
+  justify-content: space-around;
+  width: 53%;
+  text-shadow: rgba(50, 5, 56, 0.425) 0em 0em 0.1em;
+  color: rgb(35, 7, 80);
+}
+
+article header {
+  font-weight: bold;
+  padding: 2%;
+  font-size: 1.3rem;
+  margin-top: 16%;
+}
+
+.piearticle {
+  padding-bottom: 2%;
+  margin-top: -5%;
+}
+
+.piearticle img {
+  height: 2.5rem;
+  margin-bottom: 30%;
+}
+
+.proyectos > section {
+  display: flex;
+  flex-direction: column;
+  margin-top: -3%;
+}
